@@ -22,11 +22,15 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   font-size: larger;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+  border-radius: 10px;
+  padding: 1rem;
+  outline: black;
+  margin-bottom: 2px;
+  }
 
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border-radius: 10px;
 }
