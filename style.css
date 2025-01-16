@@ -80,8 +80,10 @@ p {
 	z-index: 1000;
 	left: 0;
 	top: 0;
-	width: 100vw;
+	width: 99vw;
 	height: auto;
+	font-size: small;
+	font: weight 100px;
 }
 #header .header {
 	min-height: 8vh;
@@ -206,8 +208,11 @@ p {
 
 /* Hero Section */
 #hero {
+	background-image: url('./img/1_kJhD4PCaIphZ9G1BG_dtNw.jpg');
+	background-size: cover;
+	background-position: center;
 	position: relative;
-	overflow: hidden;
+	z-index: 1;
 }
 #hero::after {
 	content: '';
@@ -263,23 +268,6 @@ p {
 }
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
-}
-
-.hero-video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	z-index: -1;
-}
-
-.hero-content {
-	position: relative;
-	z-index: 1;
-	color: white;
-	text-align: center;
 }
 
 /* End Hero Section */
